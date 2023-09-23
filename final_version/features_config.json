@@ -1,0 +1,52 @@
+{
+    "new_ui": {
+        "active": true,
+        "regions": [
+            "US",
+            "RO"
+        ],
+        "percentage_rollout": 50,
+        "users": [
+            123,
+            456,
+            789
+        ],
+        "account_types": [
+            "premium",
+            "enterprise"
+        ],
+        "beta_program": true,
+        "activation_date": "2022-12-25T00:00:00",
+        "error_threshold": 100,
+        "environments": [
+            "dev",
+            "staging",
+            "production"
+        ],
+        "performance_baseline": 1.0,
+        "metadata": {
+            "description": "New and improved UI with advanced features.",
+            "owner": "UI Team"
+        }
+    },
+    "advanced_search": {
+        "active": true,
+        "depends_on": [
+            "new_ui"
+        ],
+        "regions": [
+            "US"
+        ],
+        "percentage_rollout": 100,
+        "environments": [
+            "dev",
+            "staging",
+            "production"
+        ],
+        "performance_baseline": 1.0,
+        "metadata": {
+            "description": "Advanced search feature relying on new_ui components.",
+            "owner": "Search Team"
+        }
+    }
+}

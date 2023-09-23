@@ -1,0 +1,20 @@
+{
+    "new_ui": {
+        "active": true,
+        "regions": [
+            "US",
+            "RO"
+        ],
+        "percentage_rollout": 50,
+        "users": [
+            123,
+            456,
+            789
+        ],
+        "account_types": [
+            "premium",
+            "enterprise"
+        ],
+        "beta_program": true
+    }
+}
